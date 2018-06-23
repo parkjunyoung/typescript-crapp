@@ -6,6 +6,7 @@ const Header: React.SFC = () => {
         <div>
             <Router.Link to="/">홈</Router.Link>
             <Router.Link to="/posts">Posts</Router.Link>
+            <Router.Link to="/accounts">회원관리</Router.Link>
             <hr />
         </div>
     );
