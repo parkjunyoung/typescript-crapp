@@ -1,8 +1,9 @@
 import * as React from 'react';
+import CounterContainer from './containers/CounterContainer';
 
 const Home: React.SFC = () => (
     <div>
-        Home입니다
+        <CounterContainer />
     </div>
 );
 
