@@ -8,10 +8,6 @@ yarn add redux react-redux immutable redux-actions
 yarn add --dev @types/react-redux @types/redux-actions
 ```
 
-```sh
-yarn add --dev typings-for-css-modules-loader
-```
-
 ### webpack.config.dev.js
 ```sh
 test: /\.css$/,
@@ -26,3 +22,6 @@ use: [
     },
 },
 ```
+
+### log
+typings-for-css-modules-loader 없어도 잘됨
